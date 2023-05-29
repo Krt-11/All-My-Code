@@ -1,0 +1,2 @@
+this folder is more focused on working with CSS and its properties. So (hopefully) mostly all projects will be CSS
+focused and there will more works on the CSS.

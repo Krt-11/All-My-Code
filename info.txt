@@ -1,0 +1,6 @@
+this folder is all the code that I will probably do by myself and just random things in editor. 
+I will try to keep the folder names as consistent as I can understanble but there might be times
+where I will most likely have to use multiple langagues in a same project like python in web.
+
+the folder with a specific language are probably going to be strictly the same language but
+the other files and folders will most likely be multiple languages.

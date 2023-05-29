@@ -1,0 +1,19 @@
+body {
+    background-color: darkolivegreen;
+}
+h1 {
+    background-color: beige;
+}
+p {
+    color: cornsilk;
+}
+#p1{
+    background-color: crimson;
+    color:azure;
+}
+.even{
+    color: red;
+}
+.odd{
+    color: blue;
+}

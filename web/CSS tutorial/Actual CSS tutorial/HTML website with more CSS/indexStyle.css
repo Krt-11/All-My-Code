@@ -1,0 +1,257 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/*-----------------------------------------------------------*/
+
+h1 {
+    color: orange;
+    font-family: "Aboreto", monospace;
+    font-weight: 900;
+    text-align: center;
+}
+
+h3 {
+    color: rgba(40, 107, 90, 0.897);
+    font-family: "Open Sans", monospace;
+}
+
+/*-----------------------------------------------------------*/
+
+p {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------*/
+
+#border1header {
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-width: 5px;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-color: darkgray;
+    margin-top: 50px;
+}
+
+#border1para {
+    border-style: groove;
+    border-width: 10px;
+    border-color: cadetblue;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*-----------------------------------------------------------*/
+
+#form1 {
+    font-family: cursive;
+}
+
+/*-----------------------------------------------------------*/
+
+.cssH {
+    font-size: 28px;
+    border: inset;
+    border-width: 4px;
+    text-align: center;
+    border-color: darkgray;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    box-shadow: 5px 2px 2px black;
+    text-shadow: 2px 2px 2px black;
+}
+
+.cssP {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: rgba(222, 184, 135, 0.39);
+}
+
+/*-----------------------------------------------------------*/
+
+#box1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+    background-color: rgba(210, 180, 140, 0.178);
+
+    border: 3px solid;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#box2 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: large;
+    text-align: center;
+    background-color: rgba(140, 170, 210, 0.178);
+
+    border: 3px solid;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*-----------------------------------------------------------*/
+
+.floatImg {
+    float: left;
+    margin: 5px;
+}
+
+#floatParaIMG {
+    text-align: left;
+}
+
+.floatBox {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgba(139, 69, 19, 0.418);
+    margin: 5px;
+
+    float: left;
+}
+
+#floatParaBOX {
+    text-align: left;
+    clear: both;
+}
+
+/*-----------------------------------------------------------*/
+
+.posFloat {
+    border: 1px solid;
+    float: left;
+    margin: 0.5%;
+    width: 23.85%;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+#posBox1 {
+    position: static;
+}
+
+#posBox2 {
+    position: relative;
+    top: 50px;
+    left: 5px;
+}
+
+#posBox3 {
+    position: relative;
+    top: 75px;
+}
+
+#posBox3Child {
+    /*
+    all the percentages here are of box3 as that is 
+    the parent for the box3Child here
+    */
+    width: 50%;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.199);
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+#posBox4 {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+#posBox4Child {
+    /*
+    all the percentages here are of box4 as that is 
+    the parent for the box4Child here
+    */
+    width: 50%;
+    height: 100px;
+    background-color: rgba(255, 0, 0, 0.199);
+    position: absolute;
+    top: 5%;
+    left: 25%;
+}
+
+/*-----------------------------------------------------------*/
+
+#pusedoClasses {
+    margin-top: 400px;
+}
+
+/*pusedo classes start with a colon for the particular attribute*/
+
+/*color of the link instead of default blue*/
+a:link {
+    color: sienna;
+}
+
+/*color of link after visited*/
+a:visited {
+    color: gray;
+}
+
+/*color of link when hovering over it*/
+a:hover {
+    color: orangered;
+}
+
+/*color when the link is being held down*/
+a:active {
+    color: blue;
+}
+
+button:hover {
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+
+button:active {
+    color: rgb(135, 207, 235);
+    background-color: black;
+}
+
+/*see colors on using formulas in the nth child pseudo class*/
+li:nth-child(even) {
+    background-color: rgba(255, 192, 203, 0.2);
+}
+
+li:nth-child(odd) {
+    background-color: rgba(135, 207, 235, 0.2);
+}
+
+li:nth-child(3n + 1) {
+    background-color: rgba(210, 105, 30, 0.2);
+}
+/*-----------------------------------------------------------*/
+
+#shadowsHead {
+    box-shadow: 5px 2px 2px black;
+    text-shadow: 2px 2px 2px black;
+}

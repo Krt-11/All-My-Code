@@ -1,0 +1,1 @@
+This is the barebone HTML website that I built with some internal CSS added to it and pther required attachments.

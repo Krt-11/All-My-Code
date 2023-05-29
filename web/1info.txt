@@ -1,0 +1,11 @@
+This is a web devlopment folder with all my projects to that so the files are most likely going to hold
+multiple languages in a same project. I will try to name this in every folder I go to make sure that the info
+us understanble for my future use ever if I need to.
+
+I wanted to make this folder more of something that is like a folder with just CSS and just HTML
+but its harder to do that because there will be projects with js and CSS with HTML that will require
+me to have those files in the same folder so it is easier for the code to understand and also to make
+the code a lot simpler by not writing the file path to every file in a code. Also outside in file 
+explorer I would have to name the files to make sure that they are all refering to the same project.
+
+So a lot more folders are going to be in here. ONE FOLDER FOR ONE PROJECT [HOPEFULLY]

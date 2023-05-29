@@ -1,0 +1,3 @@
+this is the first website that I built by myself using a tutorial in yt and is just plain HTML file with
+inline CSS so no special use of that. It is only like that because I accidentally discovered the style
+attribute so i was able to add that to so much but this is more of basics of html.
